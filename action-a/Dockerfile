@@ -1,4 +1,4 @@
-FROM alpine:3.10.1
+FROM debian:9.5-slim
 
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
